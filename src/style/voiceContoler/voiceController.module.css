@@ -4,33 +4,25 @@
   display: block;
   padding-left: 10px;
   padding-right: 10px;
-  /* position: relative; */
   width: 90%;
   height: 90%;
   background-color: rgb(24, 24, 24);
   background-size: cover;
   color: white;
-  /* z-index: 7; */
 }
 .statue {
   position: relative;
   transform: translateY(130%);
   animation: ani 2s forwards, 2.5s ani1 2s infinite;
   width: 250px;
-  /* opacity: 0.99; */
-  /* width: 100%;
-  height: 100%; */
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
-  /* animation:  2s ani1 1s infinite ; */
 }
 
 .center {
-  /* display: flex; */
   align-items: center;
-  /* margin-bottom: 20px; */
 }
 
 .right {
@@ -41,7 +33,6 @@
   font-size: 40px;
   background-color: rgb(43, 144, 226);
   height: 60px;
-  /* border-radius: 50%; */
 }
 
 .shadowCircle {
@@ -62,15 +53,11 @@
   position: relative;
   z-index: 2;
   width: 100%;
-  /* height: 1200px; */
-  /* opacity: 0.99; */
   background-color: rgb(24, 24, 24);
 }
 .inter{
   margin-bottom: 100px;
   width: 390px;
-  /* z-index: 2; */
-  /* height: 100%; */
   position: relative;
   right: 30px;
 }
@@ -97,7 +84,6 @@
   z-index: 2;
   bottom: 1px;
   padding-top: 30px;
-  /* padding-bottom: 80px; */
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
   font-size: 56px;
@@ -161,15 +147,8 @@
     height: 100vh;
     background-image: url("/public/image/voiceController/Vector.png");
     background-size: contain;
-    /* background-size: cover; */
-    /* background-size: contain; */
     padding-left: 0px;
     padding-right:  0px;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-     */
   }
   .center {
     display: none;
@@ -180,20 +159,14 @@
     transform: translateY(130%);
     animation: ani 2s forwards, 2.5s ani1 2s infinite;
     width: 250px;
-    /* opacity: 0.99; */
-    /* width: 100%;
-    height: 100%; */
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
-    /* animation:  2s ani1 1s infinite ; */
   }
   
   .center {
-    /* display: flex; */
     align-items: center;
-    /* margin-bottom: 20px; */
   }
 
   .right {
@@ -218,14 +191,11 @@
     position: relative;
     z-index: 0;
     width: 100%;
-    /* height: 1200px; */
-    /* opacity: 0.99; */
     background-color: transparent;
   }
   .inter{
     margin-bottom: 100px;
     width: 370px;
-    /* height: 100%; */
     position: relative;
     right: 22px;
   }
@@ -237,12 +207,12 @@
     padding-top: 30px;
     padding-bottom: 15px;
     color: rgb(255, 255, 255);
-font-family: Montserrat;
-font-size: 44.79px;
-font-weight: 900;
-line-height: 90%;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Montserrat;
+    font-size: 44.79px;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: left;
   }
   
   .yama {
@@ -255,16 +225,15 @@ text-align: left;
     padding-bottom: 60px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-size: 61px;
-  font-weight: 900;
-  line-height: 90%;
-  letter-spacing: 0%;
-  text-align: left;
+    font-family: Montserrat;
+    font-size: 61px;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: left;
   }
 
   .guchie{
-    /* display: none; */
     background-color: transparent;
     position: relative;
     z-index: 2;
@@ -293,7 +262,6 @@ text-align: left;
     position: block;
     z-index: auto;
     height: 0%;
-    /* background-image: url("/public/image/voiceController/Vector.png"); */
   }
   
 }

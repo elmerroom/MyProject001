@@ -1,16 +1,10 @@
 import style from "../style/table.module.css"
 import { useState } from "react"
 import { Outlet, Link } from "react-router-dom"
-// import Image from "/image/upTable.png"
 
 export default function Table () {
 
   const [isActive, setIsctive] = useState(false)
-
-  // const up = style.table
-  // const down = style.tableDown
-  
-  // let upper = false
 
   function btnUp() {
     setIsctive(false)
