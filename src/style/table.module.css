@@ -2,6 +2,8 @@
   display: flex;
   width: 100%;
 }
+
+
 .link {
   font-size: 20px;
   background-color: aqua;
@@ -22,9 +24,6 @@
   width: 975px;
   height: 782px;
   top: 130px;
-  /* left: 1px; */
-  /* opacity: 90%; */
-  /* transform: translateY(160px); */
   -webkit-transition: -webkit-transform 2s;
   transition: -webkit-transform 2s;
   -o-transition: transform 2s ;
@@ -37,8 +36,6 @@
   width: 975px;
   height: 782px;
   top: 130px;
-  /* left: 1px; */
-  /* opacity: 90%; */
   -webkit-transform: translateY(-130px);
       -ms-transform: translateY(-130px);
           transform: translateY(-130px);
@@ -80,7 +77,6 @@
   font-weight: 300;
   line-height: 170%;
   letter-spacing: 0%;
-  /* text-align: left; */
   position: absolute;
   width: 150px;
   height: 150px;
@@ -103,7 +99,7 @@ h1 {
 
 .text {
   margin-top: 25px;
-  /* padding-right: 450px; */
+  padding-right: 300px;
 }
 
 .text1 {
@@ -119,12 +115,12 @@ h1 {
 
 .text2 {
   color: rgb(24, 24, 24);
-font-family: "Ubuntu";
-font-size: 22px;
-font-weight: 300;
-line-height: 170%;
-letter-spacing: 0%;
-text-align: left;
+  font-family: "Ubuntu";
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 170%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 @media(max-width: 320px) {
@@ -133,7 +129,6 @@ text-align: left;
     padding-left: 18px;
     flex-wrap: wrap;
     width: 90%;
-    /* padding-right: 1200px; */
   }
   .leftSide {
     display: none;
@@ -149,12 +144,7 @@ text-align: left;
     position: absolute;
     width: 975px;
     height: 782px;
-    top: 1320px;
-    /* bottom: -1400px; */
-    /* right: 800px; */
-    /* left: 1px; */
-    /* opacity: 90%; */
-    /* transform: translateY(160px); */
+    top: 1403px;
     -webkit-transition: -webkit-transform 2s;
     transition: -webkit-transform 2s;
     -o-transition: transform 2s ;
@@ -166,9 +156,7 @@ text-align: left;
   position: absolute;
   width: 975px;
   height: 782px;
-  top: 1320px;
-  /* left: 1px; */
-  /* opacity: 90%; */
+  top: 1403px;
   -webkit-transform: translateY(-120px);
       -ms-transform: translateY(-120px);
           transform: translateY(-120px);
@@ -183,7 +171,6 @@ text-align: left;
     top: 0px;
     width: 975px;
     height: 782px;
-    /* opacity: 80%; */
   }
   .up {
     position: relative;
@@ -194,7 +181,7 @@ text-align: left;
     left: 323px;
     top: -200px;
     color: rgb(0, 0, 0);
-    font-family: Ubuntu;
+    font-family: "Ubuntu";
     font-size: 40.19px;
     font-weight: 300;
     line-height: 170%;
@@ -208,7 +195,6 @@ text-align: left;
     font-weight: 300;
     line-height: 170%;
     letter-spacing: 0%;
-    /* text-align: left; */
     position: relative;
     width: 150px;
     height: 150px;
@@ -220,39 +206,37 @@ text-align: left;
 
   h1 {
     color: rgb(11, 100, 254);
-font-family: "Bebas Neue";
-font-size: 120px;
-font-weight: 700;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
+    font-family: "Bebas Neue";
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
   }
   
   .text {
     margin-top: 25px;
-    /* padding-right: 450px; */
   }
   
   .text1 {
-    /* height: 1000px; */
     box-sizing: border-box;
     color: rgb(24, 24, 24);
-font-family: "Ubuntu";
-font-size: 50px;
-font-weight: 300;
-line-height: 170%;
-letter-spacing: 0%;
-text-align: left;
+    font-family: "Ubuntu";
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 170%;
+    letter-spacing: 0%;
+    text-align: left;
   }
   
   .text2 {
     color: rgb(24, 24, 24);
-font-family: "Ubuntu";
-font-size: 50px;
-font-weight: 300;
-line-height: 170%;
-letter-spacing: 0%;
-text-align: left;
+    font-family: "Ubuntu";
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 170%;
+    letter-spacing: 0%;
+    text-align: left;
   }
 
   .link {

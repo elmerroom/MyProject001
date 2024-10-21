@@ -8,7 +8,6 @@ export default function VoiceControl() {
   return (
     <main className={style.main}>
       
-      {/* <img className={style.vector} src="" alt="" /> */}
       <Text></Text>
       <div className={style.center}>
       <img className={style.statue} src="/image/voiceController/на главную 13.png" alt="" />

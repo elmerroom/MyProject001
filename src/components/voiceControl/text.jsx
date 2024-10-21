@@ -36,8 +36,6 @@ export default function Text() {
           </div>
           <img className={style.inter} src="/image/voiceController/интерфейс 2.png" alt="" />
         </div>
-        
-            {/* <img className={style.inter} src="/image/voiceController/интерфейс 1.png" alt="" /> */}
       </div>
         
         
